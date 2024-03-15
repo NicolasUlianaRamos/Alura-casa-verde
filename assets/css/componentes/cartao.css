@@ -1,0 +1,16 @@
+.cartao{
+    box-sizing: border-box;
+
+    padding: 2rem 0;
+
+    background-color: var(--branco);
+
+    box-shadow: 10px 10px 30px #0000000F;
+}
+
+
+@media screen and (min-width: 768px){
+    .cartao{
+        padding: 3rem;
+    }
+}

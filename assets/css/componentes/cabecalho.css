@@ -1,0 +1,54 @@
+.menuMobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.menuDesktop{
+    display: none;
+}
+
+.cabecalho__logo{
+    width: 11.125rem;
+}
+
+.cabecalho_-carrinho{
+    width: 1.75rem;
+}
+
+@media screen and (min-width: 768px){
+    .menuMobile{
+        display: none;
+    }
+    .menuDesktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        box-sizing: border-box;
+
+        width: 100%;
+
+        padding-top: .75rem;
+        padding-bottom: .75rem;
+
+        color: var(--preto);
+        font-weight: var(--peso-titulo-destaque);
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu__li{
+        margin-left: 2rem;
+    }
+    .menu__li:hover{
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,21 @@
+.como-conseguir{
+    margin-bottom: 5.625rem;
+}
+
+.como-conseguir__imagem{
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .como-conseguir{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        margin-top: 7rem;
+    }
+
+    .como-conseguir__imagem{
+        display: flex;
+    }
+}
